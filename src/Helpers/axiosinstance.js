@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL=" http://localhost:9036/api/v1/";
+const BASE_URL="https://lmsbackend-2hw4iobqm-shashanks-projects-3027ed5d.vercel.app/api/v1";
 const axiosInstance=axios.create();
 
 axiosInstance.defaults.baseURL=BASE_URL;

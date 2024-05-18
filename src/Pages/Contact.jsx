@@ -1,7 +1,7 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
 
-import axiosInstance from "../Helpers/axiosInstance";
+import axiosInstance from "../Helpers/axiosinstance.js";
 import { isEmail } from "../Helpers/regexMatcher";
 import HomeLayout from "../Layouts/HomeLayout";
 

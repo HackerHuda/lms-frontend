@@ -3,7 +3,7 @@ import {  useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { getUserData } from "../../Redux/Slices/AuthSlice";
-import  {cancelCourseBundle}  from "../../Redux/Slices/RazorPaySlice";
+import  {cancelCourseBundle}  from "../../Redux/Slices/RazorpaySlice.js";
 import HomeLayout from "../../Layouts/HomeLayout";
 function Profile() {
     

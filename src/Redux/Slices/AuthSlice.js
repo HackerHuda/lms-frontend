@@ -76,6 +76,7 @@ export const updateProfile = createAsyncThunk(
   "/user/update/profile",
   async (data) => {
     try {
+      console.log("this is frontend console",data[0],data[1]);
       const response = axiosInstance.put(`user/update/${data[0]}`, data[1]);
       toast.promise(response, {
         loading: "Wait! updating your account",
